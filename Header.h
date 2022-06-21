@@ -28,6 +28,7 @@ Node *insertNode(Node *p, int x) {
         else 
             p->right = insertNode(p->right,x);
     }
+    return t;
 } 
 
 /* 1. Tạo cây nhị phân tìm kiếm từ tập tin data.txt */
